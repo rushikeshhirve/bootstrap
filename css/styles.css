@@ -1,0 +1,165 @@
+/* body {
+  font-family: "Montserrat-black";
+} */
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.row>.col-lg-6>h1 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#testimonials>h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.cta-content>h3 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 2.5rem;
+  width: 60%;
+  margin: auto;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Montserrat";
+}
+
+/* download-btn */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.title-photo {
+  width: 65%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* features */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+/* .feature-box > h3 {
+  font-family: "Montserrat-bold";
+} */
+p {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef8172;
+  padding: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%
+}
+
+.press-logo {
+  width: 17%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.card-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+
+.cta-content {
+  padding: 4%;
+}
+
+.download-btn-foot {
+  margin: 3% 2% 3% 0;
+}
+
+#footer {
+  text-align: center;
+  padding-top: 35px;
+}
+#footer > p {
+    font-size: 10px;
+}
+
+.social-logo {
+  padding: 1% 1%;
+}
+
+@media (max-width: 1028px) {
+  .title-photo {
+    transform: rotate(0);
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
